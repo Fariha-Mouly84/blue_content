@@ -1,0 +1,143 @@
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: #121B2A;
+}
+.wrapper {
+	overflow:hidden;
+	margin:0 auto;
+	width:80%;
+	
+}
+
+.logo {
+	
+	width:15%;
+	float:left;
+
+}
+.logo img{
+	width:100%;
+}
+
+.menu {
+	
+	width:70%;
+	float: right;
+	margin-top:10px;
+
+
+}
+.menu ul{
+	float:right;
+}
+.menu ul li{
+	list-style: none;
+	float:left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color:white;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding:0 25px;
+	display:inline-block;
+}
+.menu ul li a:hover{
+	color:#3743B6;
+}
+.menu ul li:last-child a{
+	padding-right:10px;
+}
+.banner{
+	background-image: url(../images/cloud.jpg);
+	/*min-height: 500px;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+    background-position: center;
+
+}
+.b_content:{
+	width:50%;
+	border:1px solid red;
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 35px;
+	color:white;
+	text-transform: capitalize;
+	margin-top:100px;
+
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+	color:#3743B6;
+	text-transform: capitalize;
+	margin-top:10px;
+
+}
+.b_content p{
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 35px;
+	color:white;
+	text-transform: capitalize;
+	line-height: 1px;
+	margin: :0;
+}
+	
+
+
+
+
+.b_content button{
+         width: 200px;
+         height:60px;
+         margin-top: 50px;
+         font-family: sans-serif;
+	     font-weight: 700;
+	     font-size: 22px;
+	     color:#3743B6;
+	     text-transform: capitalize;
+	     background-color: rgba(12,12,12,0.4);
+	     border:0;
+	     border-radius: 4px;
+	     cursor: pointer;
+	     transition: .3s;
+	 }
+.b_content button:hover{color:#3743B6;
+
+}
+.b_content button:focus{
+	outline:0;
+}	 
+
+	     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
